@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: black;
+}
+
+header h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 50px;
+  text-align: center;
+}
+
+.iguana_principal img {
+  width: 100%;
+}
+
+.iguanita_seccion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+  background-color: black;
+}
+
+.descrip-text {
+  width: 475px;
+  text-align: justify;
+  margin-right: 2%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.iguanita {
+  width: 40%;
+  max-width: 399px;
+  height: auto;
+}
+
+.iconos_seccion {
+  background-color: #1e1a13;
+  padding: 2%;
+}
+
+.iconos_seccion h2 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 40px;
+}
+
+.container-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15%;
+  margin-top: auto;
+}
+
+.container-icons p {
+  font-size: 25px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icons i {
+  font-size: 3rem;
+}
+
+.iguanas_seccion {
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 0%;
+}
+
+.imagenes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; 
+  width: 100%; 
+}
+
+.imagen {
+  width: 316px;
+  height: 202px;
+  margin-right: 15px; 
+  margin-top: 7%;
+  margin-bottom: 7%; 
+}
+
+.footer {
+  height: 2em;
+  background-color: #1e1a13;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
